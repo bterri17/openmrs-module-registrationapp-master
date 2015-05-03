@@ -1,0 +1,9 @@
+[
+    {
+        "id": "${project.parent.groupId}.${project.parent.artifactId}.editPatientContactInfo",
+        "extensionPointId": "patientHeader.editPatientContactInfo",
+        "type": "link",
+        "label": "general.edit",
+        "url": "fbregistrationapp/editSection.page?patientId={{patient.patientId}}&sectionId=contactInfo&appId=referenceapplication.fbregistrationapp.registerPatient"
+    }
+]
